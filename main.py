@@ -23,6 +23,16 @@ class Application(object):
          self.heading.place(x=450,y=90)
 
 
+         #BTN
+         self.mypeople= Button(self.bottom,text ='my people',font='arial 12 bold ',bg='white',fg='gold')
+         self.mypeople.place(x=250,y=70)
+
+
+
+
+
+
+
 
 def main():
     root = Tk()
