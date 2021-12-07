@@ -27,6 +27,12 @@ class Application(object):
          self.mypeople= Button(self.bottom,text ='my people',font='arial 12 bold ',bg='white',fg='gold')
          self.mypeople.place(x=250,y=70)
 
+         self.addpeople= Button(self.bottom,text ='add people',font='arial 12 bold ',bg='white',fg='gold')
+         self.addpeople.place(x=250,y=130)
+
+         self.about= Button(self.bottom,text ='about us',font='arial 12 bold ',bg='white',fg='gold')
+         self.about.place(x=250,y=190)
+
 
 
 
