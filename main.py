@@ -17,8 +17,10 @@ class Application(object):
          self.bottom = Frame(master,  height=500,bg='#84DFFF')
          self.bottom.pack(fill = X)
          self.heading =Label(self.top,text ='my phoneBook App',font='arial 15 bold ',bg='white',fg='gold')
-         
          self.heading.place(x=230,y=50)
+
+         self.heading =Label(self.top,text ='today date'+date,font='arial 12 bold ',bg='white',fg='gold')
+         self.heading.place(x=450,y=90)
 
 
 
